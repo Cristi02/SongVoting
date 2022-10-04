@@ -8,7 +8,7 @@ const routes = [
         component: Home,
     },
     {
-        path: "/list",
+        path: "/songs",
         component: Songs,
     },
     {

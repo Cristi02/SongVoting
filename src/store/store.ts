@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import songFile from "./youtube_songs_list.json";
 
-const songList = songFile.items.map((x, index) => {
+const songList = songFile.items.map((x, index): any => {
     return { songData: x, likes: index, dislikes: 0 };
 });
 

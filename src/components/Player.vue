@@ -4,4 +4,4 @@
 <script lang="ts">
 export default {};
 </script>
-< scoped></style>
+<style scoped></style>
