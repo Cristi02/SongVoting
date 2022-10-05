@@ -2,7 +2,7 @@
     <ul>
         <li v-for="song in songsTitleList" :key="song">{{ song }}</li>
     </ul>
-    <SongCard v-for="song in songList" :key="song.title" :song="song" />
+    <SongCard v-for="song in songList" :key="song.songData.id" :song="song" />
 </template>
 <script lang="ts">
 import { useSongsStore } from "../store/store";
